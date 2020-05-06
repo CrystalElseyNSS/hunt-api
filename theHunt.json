@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Rachel Wood",
+      "email": "wood.rachel36@gmail.com",
+      "password": "babyotter",
+      "id": 1
+    },
+    {
+      "name": "Crystal Elsey",
+      "email": "hello@crystalelsey.com",
+      "password": "tanner",
+      "id": 2
+    }
+  ],
+  "companies": [
+    {
+      "companyName": "Campaign Monitor",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "companyName": "Lonely Planet",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "companyName": "Herrie",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "companyName": "LoyalStricklin",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "companyName": "Nashville Software School",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "companyName": "Eventbrite",
+      "userId": 2,
+      "id": 6
+    }
+  ],
+  "submissions": [
+    {
+      "companyId": 6,
+      "position": "Jr. Developer",
+      "dateApplied": "2020-04-30T05:00:00.000Z",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "companyId": 2,
+      "position": "Project Manager",
+      "dateApplied": "2020-05-01T05:00:00.000Z",
+      "userId": 2,
+      "id": 2
+    }
+  ]
+}
