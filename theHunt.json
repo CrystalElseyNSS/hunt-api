@@ -53,13 +53,18 @@
       "companyName": "Nashville Software School",
       "userId": 2,
       "id": 8
+    },
+    {
+      "companyName": "Vaco",
+      "userId": 2,
+      "id": 9
     }
   ],
   "submissions": [
     {
       "companyId": 2,
-      "position": "Sr. Developer",
-      "dateApplied": "2020-05-01T05:00:00.000Z",
+      "position": "Jr. Developer",
+      "dateApplied": "2020-05-02T05:00:00.000Z",
       "userId": 2,
       "id": 1
     },
@@ -90,13 +95,6 @@
       "dateApplied": "2020-05-03T05:00:00.000Z",
       "userId": 1,
       "id": 5
-    },
-    {
-      "companyId": 1,
-      "position": "Project Manager",
-      "dateApplied": "2020-05-08T05:00:00.000Z",
-      "userId": 2,
-      "id": 6
     }
   ],
   "tasks": [
@@ -113,13 +111,13 @@
     {
       "submissionId": 1,
       "taskId": 1,
-      "isComplete": false,
+      "isComplete": true,
       "id": 1
     },
     {
       "submissionId": 1,
       "taskId": 2,
-      "isComplete": false,
+      "isComplete": true,
       "id": 2
     },
     {
@@ -169,18 +167,6 @@
       "taskId": 2,
       "isComplete": false,
       "id": 10
-    },
-    {
-      "submissionId": 6,
-      "taskId": 1,
-      "isComplete": true,
-      "id": 11
-    },
-    {
-      "submissionId": 6,
-      "taskId": 2,
-      "isComplete": false,
-      "id": 12
     }
   ],
   "interviews": [
