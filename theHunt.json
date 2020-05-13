@@ -35,30 +35,174 @@
       "id": 4
     },
     {
-      "companyName": "Nashville Software School",
-      "userId": 2,
+      "companyName": "Curtesae",
+      "userId": 1,
       "id": 5
     },
     {
-      "companyName": "Eventbrite",
-      "userId": 2,
+      "companyName": "Hashmani the Label",
+      "userId": 1,
       "id": 6
+    },
+    {
+      "companyName": "Animax Designs",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "companyName": "Nashville Software School",
+      "userId": 2,
+      "id": 8
     }
   ],
   "submissions": [
     {
-      "companyId": 6,
-      "position": "Jr. Developer",
-      "dateApplied": "2020-04-30T05:00:00.000Z",
+      "companyId": 2,
+      "position": "Sr. Developer",
+      "dateApplied": "2020-05-01T05:00:00.000Z",
       "userId": 2,
       "id": 1
     },
     {
-      "companyId": 2,
-      "position": "Project Manager",
-      "dateApplied": "2020-05-01T05:00:00.000Z",
-      "userId": 2,
+      "companyId": 5,
+      "position": "Production Seamstress",
+      "dateApplied": "2020-05-03T05:00:00.000Z",
+      "userId": 1,
       "id": 2
+    },
+    {
+      "companyId": 6,
+      "position": "Production Seamstress",
+      "dateApplied": "2020-05-03T05:00:00.000Z",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "companyId": 4,
+      "position": "Production Seamstress",
+      "dateApplied": "2020-05-03T05:00:00.000Z",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "companyId": 7,
+      "position": "Costume Stitcher",
+      "dateApplied": "2020-05-03T05:00:00.000Z",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "companyId": 1,
+      "position": "Project Manager",
+      "dateApplied": "2020-05-08T05:00:00.000Z",
+      "userId": 2,
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Send email to follow up on application"
+    },
+    {
+      "id": 2,
+      "task": "Call hiring manager to follow up on application"
+    }
+  ],
+  "submissionTasks": [
+    {
+      "submissionId": 1,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 1
+    },
+    {
+      "submissionId": 1,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 2
+    },
+    {
+      "submissionId": 2,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 3
+    },
+    {
+      "submissionId": 2,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 4
+    },
+    {
+      "submissionId": 3,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 5
+    },
+    {
+      "submissionId": 3,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "submissionId": 4,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "submissionId": 4,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "submissionId": 5,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 9
+    },
+    {
+      "submissionId": 5,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 10
+    },
+    {
+      "submissionId": 6,
+      "taskId": 1,
+      "isComplete": true,
+      "id": 11
+    },
+    {
+      "submissionId": 6,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 12
+    }
+  ],
+  "interviews": [
+    {
+      "companyId": 7,
+      "contact": "Heather Whatton",
+      "title": "Owner",
+      "email": "heatherwhatton@gmail.com",
+      "date": "2020-05-06T05:00:00.000Z",
+      "time": "09:00",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "companyId": 1,
+      "contact": "Logan Baird",
+      "title": "Project Manager",
+      "email": "logan@emma.com",
+      "date": "2020-05-22T05:00:00.000Z",
+      "time": "13:00",
+      "userId": 2,
+      "id": 4
     }
   ]
 }
