@@ -105,6 +105,28 @@
     {
       "id": 2,
       "task": "Call hiring manager to follow up on application"
+    },
+    {
+      "id": 3,
+      "task": "Send thank you email to interviewer"
+    },
+    {
+      "id": 4,
+      "task": "Follow up on the status of the position"
+    }
+  ],
+  "interviewTasks": [
+    {
+      "interviewId": 4,
+      "taskId": 3,
+      "isComplete": true,
+      "id": 1
+    },
+    {
+      "interviewId": 4,
+      "taskId": 4,
+      "isComplete": false,
+      "id": 2
     }
   ],
   "submissionTasks": [
