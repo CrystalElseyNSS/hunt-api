@@ -95,6 +95,13 @@
       "dateApplied": "2020-05-03T05:00:00.000Z",
       "userId": 1,
       "id": 5
+    },
+    {
+      "companyId": 1,
+      "position": "Jr. Developer",
+      "dateApplied": "2020-05-04T05:00:00.000Z",
+      "userId": 2,
+      "id": 6
     }
   ],
   "tasks": [
@@ -189,6 +196,30 @@
       "taskId": 2,
       "isComplete": false,
       "id": 10
+    },
+    {
+      "submissionId": 6,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 11
+    },
+    {
+      "submissionId": 6,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 12
+    },
+    {
+      "submissionId": 6,
+      "taskId": 3,
+      "isComplete": false,
+      "id": 13
+    },
+    {
+      "submissionId": 6,
+      "taskId": 4,
+      "isComplete": false,
+      "id": 14
     }
   ],
   "interviews": [
@@ -211,6 +242,25 @@
       "time": "13:00",
       "userId": 2,
       "id": 4
+    },
+    {
+      "companyId": 2,
+      "contact": "Bob White",
+      "title": "Project Manager",
+      "email": "bob@lonelyplanet.com",
+      "date": "2020-05-29T05:00:00.000Z",
+      "time": "11:00",
+      "userId": 2,
+      "id": 5
+    }
+  ],
+  "interviewPrep": [
+    {
+      "id": 1,
+      "interviewId": 4,
+      "answerOne": "I am awesome because",
+      "answerTwo": "I want this job because",
+      "answerThree": "Some questions I have are"
     }
   ]
 }
