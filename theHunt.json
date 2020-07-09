@@ -1,263 +1,352 @@
 {
   "users": [
-  {
-  "name": "Crystal Elsey",
-  "email": "hello@crystalelsey.com",
-  "password": "tanner",
-  "id": 1
-  },
-  {
-  "name": "Test Account",
-  "email": "test@thehunt.com",
-  "password": "hired",
-  "id": 2
-  }
+    {
+      "name": "Crystal Elsey",
+      "email": "hello@crystalelsey.com",
+      "password": "tanner",
+      "id": 1
+    },
+    {
+      "name": "Test Account",
+      "email": "test@thehunt.com",
+      "password": "hired",
+      "id": 2
+    }
   ],
   "companies": [
-  {
-  "companyName": "Campaign Monitor",
-  "userId": 1,
-  "id": 1
-  },
-  {
-  "companyName": "Healthstream",
-  "userId": 1,
-  "id": 2
-  },
-  {
-  "companyName": "Blue Print Title",
-  "userId": 1,
-  "id": 3
-  },
-  {
-  "companyName": "Campaign Monitor",
-  "userId": 2,
-  "id": 4
-  },
-  {
-  "companyName": "Healthstream",
-  "userId": 2,
-  "id": 5
-  },
-  {
-  "companyName": "Vaco",
-  "userId": 2,
-  "id": 6
-  },
-  {
-  "companyName": "Nashville Software School",
-  "userId": 2,
-  "id": 7
-  }
+    {
+      "companyName": "Campaign Monitor",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "companyName": "Healthstream",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "companyName": "Blue Print Title",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "companyName": "Campaign Monitor",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "companyName": "Healthstream",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "companyName": "Vaco",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "companyName": "Nashville Software School",
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "companyName": "Regions Bank",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "companyName": "Staffigo Technical Services",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "companyName": "eTeam",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "companyName": "Cypress HCM",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "companyName": "Conch Technologies Inc.",
+      "userId": 1,
+      "id": 12
+    }
   ],
   "submissions": [
-  {
-  "companyId": 2,
-  "position": "Jr. Developer",
-  "dateApplied": "2020-07-03T05:00:00.000Z",
-  "userId": 1,
-  "id": 2
-  },
-  {
-  "companyId": 5,
-  "position": "Jr. Developer",
-  "dateApplied": "2020-07-01T05:00:00.000Z",
-  "userId": 2,
-  "id": 3
-  }
+    {
+      "companyId": 5,
+      "position": "Jr. Developer",
+      "dateApplied": "2020-07-01T05:00:00.000Z",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "companyId": 8,
+      "position": "Software Engineer",
+      "source": "Glassdoor",
+      "referral": "N/A",
+      "dateApplied": "2020-07-08T05:00:00.000Z",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "companyId": 9,
+      "position": "Junior .NET Developer",
+      "source": "Glassdoor",
+      "referral": "N/A",
+      "dateApplied": "2020-07-09T05:00:00.000Z",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "companyId": 10,
+      "position": "Java Developer",
+      "source": "Glassdoor",
+      "referral": "N/A",
+      "dateApplied": "2020-07-09T05:00:00.000Z",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "companyId": 11,
+      "position": "Front-End Web Developer (React)",
+      "source": "Glassdoor",
+      "referral": "N/A",
+      "dateApplied": "2020-07-09T05:00:00.000Z",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "companyId": 12,
+      "position": ".NET Full Stack Developer",
+      "source": "Glassdoor",
+      "referral": "N/A",
+      "dateApplied": "2020-07-09T05:00:00.000Z",
+      "userId": 1,
+      "id": 8
+    }
   ],
   "tasks": [
-  {
-  "id": 1,
-  "task": "Send email to follow up on application"
-  },
-  {
-  "id": 2,
-  "task": "Call hiring manager to follow up on application"
-  }
+    {
+      "id": 1,
+      "task": "Send email to follow up on application"
+    },
+    {
+      "id": 2,
+      "task": "Call hiring manager to follow up on application"
+    }
   ],
   "interviewToDos": [
-  {
-  "id": 1,
-  "task": "Prepare answers to commonly asked questions"
-  },
-  {
-  "id": 2,
-  "task": "Send email to confirm interview"
-  },
-  {
-  "id": 3,
-  "task": "Send thank you email to interviewer"
-  },
-  {
-  "id": 4,
-  "task": "Email to follow up on status of position"
-  }
+    {
+      "id": 1,
+      "task": "Prepare answers to commonly asked questions"
+    },
+    {
+      "id": 2,
+      "task": "Send email to confirm interview"
+    },
+    {
+      "id": 3,
+      "task": "Send thank you email to interviewer"
+    },
+    {
+      "id": 4,
+      "task": "Email to follow up on status of position"
+    }
   ],
   "submissionTasks": [
-  {
-  "submissionId": 2,
-  "taskId": 1,
-  "isComplete": false,
-  "id": 1
-  },
-  {
-  "submissionId": 2,
-  "taskId": 2,
-  "isComplete": false,
-  "id": 2
-  },
-  {
-  "submissionId": 3,
-  "taskId": 1,
-  "isComplete": true,
-  "id": 3
-  },
-  {
-  "submissionId": 3,
-  "taskId": 2,
-  "isComplete": true,
-  "id": 4
-  }
+    {
+      "submissionId": 3,
+      "taskId": 1,
+      "isComplete": true,
+      "id": 3
+    },
+    {
+      "submissionId": 3,
+      "taskId": 2,
+      "isComplete": true,
+      "id": 4
+    },
+    {
+      "submissionId": null,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 5
+    },
+    {
+      "submissionId": null,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "submissionId": 4,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "submissionId": 4,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "submissionId": 5,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 9
+    },
+    {
+      "submissionId": 5,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 10
+    },
+    {
+      "submissionId": 6,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 11
+    },
+    {
+      "submissionId": 6,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 12
+    },
+    {
+      "submissionId": 7,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 13
+    },
+    {
+      "submissionId": 7,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 14
+    },
+    {
+      "submissionId": 8,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 15
+    },
+    {
+      "submissionId": 8,
+      "taskId": 2,
+      "isComplete": false,
+      "id": 16
+    }
   ],
   "interviews": [
-  {
-  "companyId": 2,
-  "contact": "Aaron Stranahan",
-  "title": "Sr Director of Development",
-  "email": "aaron.stranahan@healthstream.com",
-  "date": "2020-07-07T05:00:00.000Z",
-  "time": "18:30",
-  "userId": 1,
-  "id": 1
-  },
-  {
-  "companyId": 3,
-  "contact": "MaRisa Jackson",
-  "title": "Director of Engineering",
-  "email": "marisa@blueprinttitle.com",
-  "date": "2020-07-08T05:00:00.000Z",
-  "time": "17:00",
-  "userId": 1,
-  "id": 2
-  },
-  {
-  "companyId": 5,
-  "contact": "Thomas Green",
-  "title": "Sr. Project Manager",
-  "email": "tom@healthstream.com",
-  "date": "2020-07-10T05:00:00.000Z",
-  "time": "11:00",
-  "userId": 2,
-  "id": 3
-  },
-  {
-  "companyId": 6,
-  "contact": "Brent Thomas",
-  "title": "Project Manager",
-  "email": "brent@vaco.com",
-  "date": "2020-07-07T05:00:00.000Z",
-  "time": "11:00",
-  "userId": 2,
-  "id": 4
-  }
+    {
+      "companyId": 3,
+      "contact": "MaRisa Jackson",
+      "title": "Director of Engineering",
+      "email": "marisa@blueprinttitle.com",
+      "date": "2020-07-08T05:00:00.000Z",
+      "time": "17:00",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "companyId": 5,
+      "contact": "Thomas Green",
+      "title": "Sr. Project Manager",
+      "email": "tom@healthstream.com",
+      "date": "2020-07-10T05:00:00.000Z",
+      "time": "11:00",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "companyId": 6,
+      "contact": "Brent Thomas",
+      "title": "Project Manager",
+      "email": "brent@vaco.com",
+      "date": "2020-07-07T05:00:00.000Z",
+      "time": "11:00",
+      "userId": 2,
+      "id": 4
+    }
   ],
   "interviewTasks": [
-  {
-  "interviewId": 1,
-  "interviewToDosId": 1,
-  "isComplete": false,
-  "id": 1
-  },
-  {
-  "interviewId": 1,
-  "interviewToDosId": 2,
-  "isComplete": true,
-  "id": 2
-  },
-  {
-  "interviewId": 1,
-  "interviewToDosId": 3,
-  "isComplete": false,
-  "id": 3
-  },
-  {
-  "interviewId": 1,
-  "interviewToDosId": 4,
-  "isComplete": false,
-  "id": 4
-  },
-  {
-  "interviewId": 2,
-  "interviewToDosId": 1,
-  "isComplete": false,
-  "id": 5
-  },
-  {
-  "interviewId": 2,
-  "interviewToDosId": 2,
-  "isComplete": false,
-  "id": 6
-  },
-  {
-  "interviewId": 2,
-  "interviewToDosId": 3,
-  "isComplete": false,
-  "id": 7
-  },
-  {
-  "interviewId": 2,
-  "interviewToDosId": 4,
-  "isComplete": false,
-  "id": 8
-  },
-  {
-  "interviewId": 3,
-  "interviewToDosId": 1,
-  "isComplete": true,
-  "id": 9
-  },
-  {
-  "interviewId": 3,
-  "interviewToDosId": 2,
-  "isComplete": true,
-  "id": 10
-  },
-  {
-  "interviewId": 3,
-  "interviewToDosId": 3,
-  "isComplete": false,
-  "id": 11
-  },
-  {
-  "interviewId": 3,
-  "interviewToDosId": 4,
-  "isComplete": false,
-  "id": 12
-  },
-  {
-  "interviewId": 4,
-  "interviewToDosId": 1,
-  "isComplete": false,
-  "id": 13
-  },
-  {
-  "interviewId": 4,
-  "interviewToDosId": 2,
-  "isComplete": false,
-  "id": 14
-  },
-  {
-  "interviewId": 4,
-  "interviewToDosId": 3,
-  "isComplete": false,
-  "id": 15
-  },
-  {
-  "interviewId": 4,
-  "interviewToDosId": 4,
-  "isComplete": false,
-  "id": 16
-  }
+    {
+      "interviewId": 2,
+      "interviewToDosId": 1,
+      "isComplete": true,
+      "id": 5
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 2,
+      "isComplete": true,
+      "id": 6
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 3,
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 4,
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "interviewId": 3,
+      "interviewToDosId": 1,
+      "isComplete": true,
+      "id": 9
+    },
+    {
+      "interviewId": 3,
+      "interviewToDosId": 2,
+      "isComplete": true,
+      "id": 10
+    },
+    {
+      "interviewId": 3,
+      "interviewToDosId": 3,
+      "isComplete": false,
+      "id": 11
+    },
+    {
+      "interviewId": 3,
+      "interviewToDosId": 4,
+      "isComplete": false,
+      "id": 12
+    },
+    {
+      "interviewId": 4,
+      "interviewToDosId": 1,
+      "isComplete": false,
+      "id": 13
+    },
+    {
+      "interviewId": 4,
+      "interviewToDosId": 2,
+      "isComplete": false,
+      "id": 14
+    },
+    {
+      "interviewId": 4,
+      "interviewToDosId": 3,
+      "isComplete": false,
+      "id": 15
+    },
+    {
+      "interviewId": 4,
+      "interviewToDosId": 4,
+      "isComplete": false,
+      "id": 16
+    }
   ]
-  }
+}
