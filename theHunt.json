@@ -33,6 +33,11 @@
       "companyName": "Blackboard",
       "userId": 1,
       "id": 4
+    },
+    {
+      "companyName": "Leo Events",
+      "userId": 1,
+      "id": 5
     }
   ],
   "submissions": [
@@ -71,6 +76,15 @@
       "dateApplied": "2020-08-11T05:00:00.000Z",
       "userId": 1,
       "id": 4
+    },
+    {
+      "companyId": 5,
+      "position": "Jr. Graphic Designer",
+      "source": "Company Website",
+      "referral": "Kristin McKinney",
+      "dateApplied": "2020-08-20T05:00:00.000Z",
+      "userId": 1,
+      "id": 5
     }
   ],
   "tasks": [
@@ -149,13 +163,85 @@
       "taskId": 2,
       "isComplete": false,
       "id": 8
+    },
+    {
+      "submissionId": 5,
+      "taskId": 1,
+      "isComplete": false,
+      "id": 9
     }
   ],
   "interviews": [
-
+    {
+      "companyId": 1,
+      "contact": "Firoj Shaikh",
+      "title": "Project Manager",
+      "email": "firoj.shaikh@healthstream.com",
+      "date": "2020-08-12T05:00:00.000Z",
+      "time": "14:00",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "companyId": 5,
+      "contact": "Leo Taylor",
+      "title": "Developer",
+      "email": "leotaylor@leoevents.com",
+      "date": "2020-08-20T05:00:00.000Z",
+      "time": "16:30",
+      "userId": 1,
+      "id": 2
+    }
   ],
   "interviewTasks": [
-    
+    {
+      "interviewId": 1,
+      "interviewToDosId": 1,
+      "isComplete": false,
+      "id": 1
+    },
+    {
+      "interviewId": 1,
+      "interviewToDosId": 2,
+      "isComplete": false,
+      "id": 2
+    },
+    {
+      "interviewId": 1,
+      "interviewToDosId": 4,
+      "isComplete": false,
+      "id": 3
+    },
+    {
+      "interviewId": 1,
+      "interviewToDosId": 3,
+      "isComplete": false,
+      "id": 4
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 1,
+      "isComplete": true,
+      "id": 5
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 3,
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 4,
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "interviewId": 2,
+      "interviewToDosId": 2,
+      "isComplete": true,
+      "id": 8
+    }
   ],
   "connections": [
     {
